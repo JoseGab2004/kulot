@@ -1,0 +1,65 @@
+body {
+  background-image: url(IMAGES/Wall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000; 
+}
+
+.container {
+  background-color: rgba(146, 181, 237, 1);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;        
+}
+
+.container{
+  color: #d5d5d5; 
+  background-color: #88abe2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* add some space */
+}
+
+
+
+.navbar {
+  background-color: #88abe2;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #000000 !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.nav-link:hover {
+  color: #0056b3 !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+.btn-info {
+  background-color: #407C87;
+  border-color: #407C87;
+}
+
+.btn-info:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.jumbotron {
+  background-color: rgba(225, 225, 225, 0.6);
+  color: #000000; 
+  padding: 2rem;
+  border-radius: 10px;
+}
+

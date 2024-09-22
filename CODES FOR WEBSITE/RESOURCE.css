@@ -1,0 +1,107 @@
+body {
+    background-image: url('IMAGES/Wall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    padding-bottom: 50px; /* Add padding to the bottom of the body to make room for the footer */
+}
+
+.container {
+    background-color: rgba(146, 181, 237, 1);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;        
+}
+
+
+.main-content {
+    display: flex; /* Make the container a flex container */
+    flex-direction: column; /* Stack the content vertically */
+}
+
+.footer {
+    position: fixed; /* Make the footer fixed */
+    bottom: 0; /* Position the footer at the bottom of the viewport */
+    width: 100%; /* Make the footer full width */
+    background-color: #88abe2;
+    color: #c1c2c26f;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #88abe2;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: black !important; /* Set link color to black */
+    text-shadow: none; /* Remove text shadow */
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Change color on hover */
+    text-shadow: none; /* Ensure no shadow on hover */
+    transform: translateY(-3px);
+}
+
+.resource-link {
+    background-color: #407C87;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 10px; /* Add space between link buttons */
+}
+
+.resource-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.external-links {
+    margin-bottom: 15px;
+}
+
+/* Add new styles to center the lab activities */
+.lab-activities {
+    text-align: center;
+    margin-top: -20px; /* Move the lab activities up */
+}
+
+.lab-activities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lab-activities li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.lab-activities a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.lab-activities a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
